@@ -1,23 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
- <!-- Set the project name, basedir and default target to be executed-->
-<project name="Ant-JUnit-Test" default="mainTarget" basedir=".">
-	
-	<!-- Set the classpath-->
-	<path id="junit.classpath">
-	   <pathelement location="lib/junit4-4.8.2.jar" />
-	 </path>
-	
-	<!-- Target for running the junit test case-->
-	<target name="junit">
-	  <junit haltonfailure="true" printsummary="true">	   
-	  	<classpath refid="junit.classpath" />
-	  	<test name="com.javawithease.testcase.DivisionTestCase"/>
-	  </junit>
+<project name="junit-ant-example" default="unit-test-1" basedir=".">
+
+	<property name="src" location="src" />
+	<property name="build" location="build" />
+	<property name="dist" location="dist" />
+
+	<description>
+    simple example build file
+  </description>
+	<target name="unit-test-1">
+		<junit printsummary="yes" haltonfailure="yes">
+			<classpath>
+				<pathelement location="${project.class.path}" />
+				<pathelement location="${build.tests}" />
+				<pathelement path="${java.class.path}" />
+			</classpath>
+			<test name="com.areyes1.jgc.junit.assertequals.JUnitAssertEqualsExample" haltonfailure="no" outfile="result">
+				<formatter type="plain" />
+				<formatter type="xml" />
+			</test>
+		</junit>
 	</target>
 
-    <!-- Defualt target to run all targets-->
-    <target name="mainTarget" depends="junit">
-      <description>Main target</description>
-    </target>
+	<target name="unit-test-2-batch">
+		<mkdir dir="${reports.tests}" />
+		<junit printsummary="yes" haltonfailure="yes">
+			<classpath>
+				<pathelement location="${project.class.path}" />
+				<pathelement location="${build.tests}" />
+				<pathelement path="${java.class.path}" />
+			</classpath>
 
-</project> 
+			<formatter type="plain" />
+			<formatter type="xml" />
+
+			<batchtest fork="yes" todir="${reports.tests}">
+				<fileset dir="${src.test}">
+					<include name="**/*Test*.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+</project>
