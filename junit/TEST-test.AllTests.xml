@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="ISS-STF069" name="test.AllTests" skipped="0" tests="6" time="0.051" timestamp="2018-03-16T01:42:13">
+  <properties>
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre" />
+    <property name="env.SAP_JRE7_64" value="C:\SAP\Shared\SAPJRE-7_1_011_64BIT" />
+    <property name="env.GIT_URL" value="https://github.com/ISS-EPAT/StackAnnotation.git" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed" />
+    <property name="env.USERNAME" value="ISS-STF069$" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HUDSON_HOME" value="C:\Program Files (x86)\Jenkins" />
+    <property name="ECLIPSE_HOME" value="../../eclipse" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.INCLUDE" value="C:\SAP\OCS-16_0\include;" />
+    <property name="env.COMPUTERNAME" value="ISS-STF069" />
+    <property name="env.=C:" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="java.version" value="1.8.0_161" />
+    <property name="env.NODE_LABELS" value="master" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="d2f58a76d352bce6" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="env.SERVICE_ID" value="Jenkins" />
+    <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="user.name" value="ISS-STF069$" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.SNC_LIB" value="C:\Program Files (x86)\SAP\FrontEnd\SapGui\Encryption\secgss.dll" />
+    <property name="env.LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.SAP_JRE7" value="C:\SAP\Shared\SAPJRE-7_1_011_64BIT" />
+    <property name="user.timezone" value="" />
+    <property name="user.script" value="" />
+    <property name="path.separator" value=";" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_161\bin\java.exe" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\junit\TEST-test.AllTests.xml crashfile=C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\junitvmwatcher8714893193171233098.properties propsfile=C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\junit1295845955981791454.properties" />
+    <property name="env.RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/1.%20Morning%20Tea%20Break%20Earlier%20Please/6/display/redirect" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="env.APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming" />
+    <property name="ant.file" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\build.xml" />
+    <property name="env.SAP_JRE7_32" value="C:\SAP\Shared\SAPJRE-7_1_011_32BIT" />
+    <property name="env.BUILD_TAG" value="jenkins-1. Morning Tea Break Earlier Please-6" />
+    <property name="env.FSHARPINSTALLDIR" value="C:\Program Files (x86)\Microsoft SDKs\F#\10.1\Framework\v4.0\" />
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\" />
+    <property name="user.language" value="en" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="target" value="1.6" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.JOB_NAME" value="1. Morning Tea Break Earlier Please" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="source" value="1.6" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#6" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/1.%20Morning%20Tea%20Break%20Earlier%20Please/display/redirect" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.SAPLOGON_INI_FILE" value="C:\WINDOWS\saplogon.ini" />
+    <property name="env.SYBROOT" value="C:\SAP" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="d2f58a76d352bce6" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.2 compiled on February 3 2018" />
+    <property name="env.USERDOMAIN" value="NUSSTF" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="ant.file.StackAnnotationProject" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\build.xml" />
+    <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.BUILD_NUMBER" value="6" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TMP" value="C:\WINDOWS\TEMP" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161/bin;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest/bin;C:\Program Files\Java\jdk1.8.0_161/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\SAP\DBISQL-16_0\bin;C:\SAP\DataAccess64\ADONET\dll;C:\SAP\DataAccess\ADONET\dll;C:\SAP\DataAccess64\ODBC\dll;C:\SAP\DataAccess\ODBC\dll;C:\SAP\OCS-16_0\lib3p64;C:\SAP\OCS-16_0\lib3p;C:\SAP\OCS-16_0\dll;C:\SAP\OCS-16_0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;." />
+    <property name="ant.java.version" value="1.8" />
+    <property name="env.WINSW_SERVICE_ID" value="Jenkins" />
+    <property name="basedir" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please" />
+    <property name="java.class.version" value="52.0" />
+    <property name="ant.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest" />
+    <property name="env.Path" value="C:\Program Files\Java\jdk1.8.0_161/bin;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest/bin;C:\Program Files\Java\jdk1.8.0_161/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\SAP\DBISQL-16_0\bin;C:\SAP\DataAccess64\ADONET\dll;C:\SAP\DataAccess\ADONET\dll;C:\SAP\DataAccess64\ODBC\dll;C:\SAP\DataAccess\ODBC\dll;C:\SAP\OCS-16_0\lib3p64;C:\SAP\OCS-16_0\lib3p;C:\SAP\OCS-16_0\dll;C:\SAP\OCS-16_0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps" />
+    <property name="env.GIT_COMMIT" value="ed8a1d600d6c677ddef990e25ad1a1f9cb7c1829" />
+    <property name="env.JENKINS_HOME" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.BASE" value="C:\Program Files (x86)\Jenkins" />
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/1.%20Morning%20Tea%20Break%20Earlier%20Please/6/display/redirect?page=changes" />
+    <property name="env.SYBASE_OCS" value="OCS-16_0" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin" />
+    <property name="env.PROCESSOR_REVISION" value="3c03" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="user.variant" value="" />
+    <property name="ant.project.name" value="StackAnnotationProject" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="os.version" value="10.0" />
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_161" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="env.GIT_PREVIOUS_COMMIT" value="ed8a1d600d6c677ddef990e25ad1a1f9cb7c1829" />
+    <property name="env.WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.version" value="25.161-b12" />
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\bin;C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\lib\junit-4.11.jar;C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest\lib\ant-launcher.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest\lib\ant.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest\lib\ant-junit.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest\lib\ant-junit4.jar" />
+    <property name="env.UATDATA" value="C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77" />
+    <property name="ant.library.dir" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest\lib" />
+    <property name="os.arch" value="amd64" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.BUILD_ID" value="6" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest\lib\ant.jar" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="env.GIT_BRANCH" value="origin/master" />
+    <property name="env.SYBASE" value="C:\SAP" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" build" />
+    <property name="java.runtime.version" value="1.8.0_161-b12" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes" />
+    <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\1. Morning Tea Break Earlier Please" />
+    <property name="env.GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="ed8a1d600d6c677ddef990e25ad1a1f9cb7c1829" />
+    <property name="env.TEMP" value="C:\WINDOWS\TEMP" />
+    <property name="env.ANT_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Ant_AntInstallation\Latest" />
+    <property name="user.country" value="GB" />
+    <property name="env.EXECUTOR_NUMBER" value="1" />
+    <property name="ant.file.type.StackAnnotationProject" value="file" />
+    <property name="env.LIB" value="C:\SAP\DataAccess64\ADONET\dll;C:\SAP\DataAccess\ADONET\dll;C:\SAP\OCS-16_0\lib" />
+    <property name="env.JOB_BASE_NAME" value="1. Morning Tea Break Earlier Please" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.HUDSON_COOKIE" value="6dfbc3d4-2f84-4ff0-be7b-feae5512556d" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="sun.arch.data.model" value="64" />
+  </properties>
+  <testcase classname="test.MyStringStackTest" name="testStackNull" time="0.001" />
+  <testcase classname="test.MyStringStackTest" name="testPop" time="0.002" />
+  <testcase classname="test.MyStringStackTest" name="testClear" time="0.001" />
+  <testcase classname="test.MyStringStackTest" name="testPush" time="0.0" />
+  <testcase classname="test.MyStringStackTest" name="testStackSequence" time="0.0" />
+  <testcase classname="test.MyStringStackTest" name="testIsEmpty" time="0.0" />
+  <system-out><![CDATA[Test for default package
+hello
+hello
+hello
+hello
+hello
+hello
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
