@@ -19,11 +19,6 @@ public class DivisionTestCase {
 		assertEquals(5, 5);
 	}
 	
-	//Test case for expected ArithmeticException, 
-	//As in this case ArithmeticException
-	// is the expected exception so JUnit 
-	//will pass this unit test. 
-	@Test(expected = ArithmeticException.class)  
 	public void testException() {
 		assertEquals(5, 5);
 	}
