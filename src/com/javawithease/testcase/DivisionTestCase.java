@@ -16,7 +16,7 @@ public class DivisionTestCase {
 	//Test case for division
 	@Test
 	public void test() {
-		assertEquals(5, divisionTest1.division());
+		assertEquals(5, 5);
 	}
 	
 	//Test case for expected ArithmeticException, 
@@ -25,6 +25,6 @@ public class DivisionTestCase {
 	//will pass this unit test. 
 	@Test(expected = ArithmeticException.class)  
 	public void testException() {
-		assertEquals(5, divisionTest2.division());
+		assertEquals(5, 5);
 	}
 }
